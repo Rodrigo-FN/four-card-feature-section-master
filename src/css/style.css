@@ -2,7 +2,7 @@
 
 :root {
     --Red: hsl(0, 78%, 62%);
-    --Cyan: hsl(180, 62%, 55%)-
+    --Cyan: hsl(180, 62%, 55%);
     --Orange: hsl(34, 97%, 64%);
     --Blue: hsl(212, 86%, 64%);
 
@@ -16,9 +16,108 @@
 body {
     font-family: var(--font);
     font-size: 15px;
+    background-color: var(--Very-Light-Gray);
+
 }
+
+.container {
+    padding: 3rem 2rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.box p {
+    color: var(--Grayish-Blue);
+    margin-bottom: 2rem;
+}
+
+.box img {
+    width: 56px;
+    align-self: flex-end;
+}
+
+.h3__titulo {
+    font-weight: 600;
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 5px;
+} 
+
+/* Texto */
+
+.texto {
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 350px;
+    margin: 2rem auto;
+    
+}
+
+.texto h1 {
+    font-size: 22px;
+}
+
+.texto h2 {
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 1rem;
+}
+
+.texto p {
+    color: var(--Grayish-Blue);
+}
+
+/* box__supervisor */
+
+.box__supervisor {
+    padding: 1rem;
+    box-shadow: 0 5px 15px hsla(180, 66%, 25%, 0.24);
+
+    border-top: 4px solid var(--Cyan);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+/* box__team */
+
+.box__team {
+    padding: 1rem;
+    box-shadow: 0 5px 15px hsla(180, 66%, 25%, 0.24);
+
+    border-top: 4px solid var(--Red);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+/* box__karma */
+
+.box__karma {
+    padding: 1rem;
+    box-shadow: 0 5px 15px hsla(180, 66%, 25%, 0.24);
+
+    border-top: 4px solid var(--Orange);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+/* box__calculator */
+
+.box__calculator {
+    padding: 1rem;
+    box-shadow: 0 5px 15px hsla(180, 66%, 25%, 0.24);
+
+    border-top: 4px solid var(--Blue);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
 
 /* Footer */
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; color: var(--Cyan);}
 .attribution a { color: hsl(228, 45%, 44%); }
